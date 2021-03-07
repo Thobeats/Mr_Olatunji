@@ -1,0 +1,463 @@
+/* Animation */
+
+@keyframes animateQuotes {
+    0% {
+        transform: translate(0rem, -15rem);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translate(30rem, -15rem);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(45rem, -15rem);
+        opacity: 1;
+    }
+}
+
+/* End Animation */
+
+
+
+
+*{
+    padding : 0;
+    margin : 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Header and Nav-links  */
+header{
+    border-top: 1px solid #B01212;
+}
+
+.display-4{
+    font-family: 'Raleway', sans-serif;
+    font-weight : 500;
+}
+
+.call-assistance {
+    font-size : 20px;
+    font-weight : 600;
+    font-family : 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.nav-item a {
+    color : #B01212;
+}
+
+.nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding : 5px;
+    margin-left : 10px;
+    font-family : 'Open Sans', sans-serif;  
+    position: relative;
+    top :  35px;
+    letter-spacing: 5px;
+}
+
+.responsive-menu{
+    display: none;
+}
+
+.nav-link:hover{
+    border-bottom : 1px solid #B01212;
+    transition: all 0.2s ease-in;
+}
+
+.active{
+    color : #0000;
+    font-weight : 700;
+    border-bottom : 1px solid #B01212;
+}
+
+/* End */
+
+/* Responsive Menu List */
+
+.responsive-menu-list{
+    display: none;
+}
+
+/* End Responsive Menu List */
+
+/* Carousel */
+ .first{
+   background-image: url("../img/cover_page/first-slide.png");
+   background-position: top;
+   background-size: cover;
+
+}
+
+ .second{
+    background-image: url("../img/cover_page/second-slide.png");
+    background-position: top;
+    background-size: cover;
+
+}
+ .third{
+    background-image: url("../img/cover_page/third-slide.png");
+    background-position: top;
+    background-size: cover;
+
+}
+
+.carousel-item{
+    height : 35rem;    
+}
+
+.carousel-caption{
+    text-transform: capitalize;
+    width : 30%;
+    font-family: 'Raleway', sans-serif;
+    animation: animateQuotes 1.5s ease-out;
+    transform: translate(45rem, -15rem) !important;
+}
+
+.carousel-caption cite{
+    font-weight : 400;
+    font-size : 15px;
+    letter-spacing: 2px;
+    
+}
+
+/* End Carousel */
+
+/* Booking */
+
+.booking {
+    margin: 70px 0px;
+}
+
+.booking-option{
+    cursor: pointer;
+    color : #B01212;
+    transition: all ease-out 1s;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family : 'Open Sans', sans-serif;
+}
+
+.card-text{
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    letter-spacing: 2px;
+    width : 100%;
+}
+
+.btn-family-affair{
+    border : 2px solid #B01212;
+    padding : 10px 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    font-weight : 600;
+    color : inherit;
+
+}
+
+.btn-family-affair:hover{
+    background-color: transparent;
+    border-color: rgb(253, 253, 253);
+}
+
+.booking-option:hover{
+    background-image: linear-gradient(90deg, rgba(175, 18, 18, 0.932), rgba(175, 18, 18, 0.979));
+    color :rgb(253, 253, 253);
+}
+
+/* End Booking */
+
+/* Call us */
+.call-banner {
+    margin : 70px 0px;
+    background-image: linear-gradient(rgba(175, 18, 18, 0.932), rgba(175, 18, 18, 0.979));
+    clip-path : polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+    color :rgb(253, 253, 253);
+}
+.call-us {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.call-us-intro{
+    text-transform: uppercase;
+}
+
+.material-icons .md-48{
+    font-size: 48px;
+}
+
+/* End Call Us */
+
+/* Our Services */
+.our-services{
+    margin : 70px 0px;
+    padding : 20px 0px;
+}
+.services-card{
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    width : 200px;
+    transition: all 0.8s ease-in-out;
+    box-shadow: 5px 5px 10px rgb(172, 169, 169);
+    cursor: pointer;
+    color :rgba(175, 18, 18, 0.8);
+    place-content: center;
+}
+
+.classes{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/blog_pics/Relationship-Coach.png");
+}
+
+.classes:hover{
+    background-image: linear-gradient(rgba(175, 18, 18, 0.8), rgba(175, 18, 18, 0.8)), url("../img/blog_pics/Relationship-Coach.png");
+}
+
+.coach{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/blog_pics/coach.png");
+}
+
+.coach:hover{
+    background-image: linear-gradient(rgba(175, 18, 18, 0.8), rgba(175, 18, 18, 0.8)), url("../img/blog_pics/coach.png");
+}
+
+.crisis{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/blog_pics/crisis.png");
+}
+
+.crisis:hover{
+    background-image: linear-gradient(rgba(175, 18, 18, 0.8), rgba(175, 18, 18, 0.8)), url("../img/blog_pics/crisis.png");
+    background-position : center right;
+}
+
+.general-counseling{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/blog_pics/General_Counseling.png");
+}
+
+.general-counseling:hover{
+    background-image: linear-gradient(rgba(175, 18, 18, 0.8), rgba(175, 18, 18, 0.8)), url("../img/blog_pics/General_Counseling.png");
+    background-position : center right;
+}
+
+.services-card:hover{
+    background-position: center left;
+    background-size: 150% 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-link, .contact-link:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    color :rgb(253, 253, 253);
+}
+
+/* End Services */
+
+/* Meet Me */
+.profile-pix{
+    width : 100%;
+    height : 100%;
+
+}
+
+.profile-text{
+    text-transform: capitalize;
+    font-size : 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-meet-me{
+    border : 1px solid;
+    background-color: rgba(175, 18, 18, 0.932);
+    color :rgb(255, 255, 255);
+    padding : 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight : 600;
+}
+
+/* End Meet me */
+
+/* Footer */
+footer{
+    margin-top : 100px;
+    height : auto;
+    background-image: linear-gradient(to right bottom, #b01212ce, #b01212c5), url(../img/cover_page/pexels-migs-reyes-4205505\ \(1\).jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.footer-social{
+    text-transform:capitalize;
+    letter-spacing: 3px;
+}
+
+.footer-social i {
+    font-size: 3rem;
+}
+
+.copyright{
+    text-transform: capitalize;
+
+}
+
+/* End Footer */
+
+@media only screen and (max-width : 1139px){
+    .nav-link {
+       letter-spacing: 3px;
+    }
+
+    .carousel-caption{
+        text-transform: capitalize;
+        width : 30%;
+        transform: translate(30rem, -10rem) !important;
+        background-image: linear-gradient(90deg, rgb(253, 253, 253), rgb(250, 4, 4));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .carousel-caption cite{
+        font-weight : 700;
+        font-size : 15px;
+        letter-spacing: 2px;
+    }
+
+    .footer-logo img{
+        width : 200px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+
+}
+
+@media only screen and (max-width : 768px){
+
+    body{
+        width: auto;
+    }
+
+    header{
+        height: auto;
+    }
+
+    nav{
+        display : none;
+    }
+
+    .responsive-menu{
+        display: block;
+        font-size: 3rem; 
+        color:#B01212;
+    }
+
+    .responsive-menu-list{
+        height : 0;
+        display: list-item;
+        overflow: hidden;
+        opacity : 1;
+        transform : translateX(-10rem);
+    }
+
+    .show-menu{
+        height: auto;
+        transform: translateX(0px);
+        transition: all 0.5s ease-in;
+    }
+
+    .responsive-item{
+        padding : 5px;    
+        margin : 5px;    
+    }
+
+    .navlink{
+        padding: 5px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: medium;
+    }
+
+    .navlink:hover{
+        border : none;
+    }
+
+    .carousel-item{
+        height : 20rem;
+    }
+
+    .carousel-caption{
+        text-transform: capitalize;
+        width : 30%;
+        transform: translate(25rem, -3rem) !important;
+        background-image: linear-gradient(90deg, #b01212ce, #b01212ce);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .footer-social i {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width : 576px){
+     body{
+        width: auto;
+    }
+
+    nav{
+        display : none;
+    }
+
+    .responsive-menu{
+        display: block;
+        font-size: 3rem; 
+        color:#B01212;
+    }
+
+    .logo{
+        width : 200px;
+        position: relative;
+        top : 10px;
+    }
+
+    .footer-social i {
+        font-size: 1.5rem;
+    }
+    
+    .footer-logo{
+        justify-items: center;
+    }
+
+    .footer-text{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+}
