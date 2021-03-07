@@ -27,10 +27,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="<?=$base_url?>/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title><?=isset($title) ? $title : 'Family Affairs'; ?></title>
-    <link rel="shortcut icon" href="<?=$base_url?>/assets/img/logo/Frame2.png" />
+    <link rel="shortcut icon" href="assets/img/logo/Frame2.png" />
 </head>
 <body>
 

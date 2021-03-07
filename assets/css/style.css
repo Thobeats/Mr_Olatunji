@@ -17,6 +17,75 @@
     }
 }
 
+
+@keyframes translateFromLeft{
+    0% {
+        transform: translateX(-15rem);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateX(-5rem);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes translateFromRight{
+    0% {
+        transform: translateX(15rem);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateX(5rem);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes translateFromTop{
+    0% {
+        transform: translateY(15rem);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateY(5rem);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes translateFromBottom{
+    0% {
+        transform: translateY(-15rem);
+        opacity: 0;
+    }
+
+    50%{
+        transform: translateY(-5rem);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* End Animation */
 
 
@@ -273,7 +342,7 @@ header{
 .profile-pix{
     width : 100%;
     height : 100%;
-
+    animation: translateFromLeft 1s ease-in;
 }
 
 .profile-text{
