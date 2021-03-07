@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-12 col-md-5 col-lg-4">
                         <div class="footer-logo text-center">
-                            <img src="<?=$base_url?>/assets/img/logo/Group 1Frame 1.png" alt="Family and Marriage Counselling Affairs">
+                            <img src=" assets/img/logo/Group 1Frame 1.png" alt="Family and Marriage Counselling Affairs">
                         </div>
                     </div>
 

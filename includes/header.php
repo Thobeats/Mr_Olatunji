@@ -47,7 +47,7 @@
             <div class="row">            
                 <div class="col-6 col-md-6 col-sm-6 pl-6">
                     <!-- The Logo -->
-                    <img src="<?=$base_url?>/assets/img/logo/LogoMakr-4tS4wl.png" class="logo" alt="Family and Marriage Counselling Affairs">
+                    <img src=" assets/img/logo/LogoMakr-4tS4wl.png" class="logo" alt="Family and Marriage Counselling Affairs">
                 </div>
 
                 <div class=" col-6 col-md-6 col-lg-6">
@@ -55,16 +55,16 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href="<?=$base_url?>/index.php">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href=" index.php">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href="<?=$base_url?>/about_me.php">About<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href=" about_me.php">About<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href="<?=$base_url?>/pages/blog.php">Gallery <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href=" pages/blog.php">Gallery <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href="<?=$base_url?>/pages/contact_me.php">Contact Us <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href=" pages/contact_me.php">Contact Us <span class="sr-only">(current)</span></a>
                                 </li>
                             </ul>                            
                         </div>
@@ -79,16 +79,16 @@
         <div class="responsive-menu-list bg-white">
             <ul class="nav flex-column">
                 <li class="nav-item responsive-item">
-                    <a href="<?=$base_url?>/index.php" class="navlink"> Home</a>
+                    <a href=" index.php" class="navlink"> Home</a>
                 </li>
                 <li class="nav-item responsive-item">
-                    <a href="<?=$base_url?>/about_me.php" class="navlink">About</a>
+                    <a href=" about_me.php" class="navlink">About</a>
                 </li>
                 <li class="nav-item responsive-item">
-                    <a href="<?=$base_url?>/pages/blog.php" class="navlink"> Gallery</a>
+                    <a href=" pages/blog.php" class="navlink"> Gallery</a>
                 </li>
                 <li class="nav-item responsive-item">
-                    <a href="<?=$base_url?>/pages/contact_me.php" class="navlink"> Contact us</a>
+                    <a href=" pages/contact_me.php" class="navlink"> Contact us</a>
                 </li>
             </ul>
         </div>
