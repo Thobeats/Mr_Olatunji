@@ -401,6 +401,9 @@ header{
 /* End Meet me */
 
 /* About */
+.my-testimony {
+   height : auto;
+}
 .my-testimony-img{
    background-image: url(../img/blog_pics/mr_kayode.png);
    background-position : top;
