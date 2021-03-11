@@ -12,19 +12,19 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active first" data-interval="2000">
-      <div class="carousel-caption d-none d-md-block text-danger text-right">
+      <div class="carousel-caption d-none d-md-block text-right">
         <cite>"Therefore a man shall leave his father and mother and hold fast to his wife, and they shall become one flesh"</cite>
         <h5 class="mt-4">Adam</h5>
       </div>
     </div>
     <div class="carousel-item second" data-interval="2000">
-      <div class="carousel-caption d-none d-md-block text-danger text-right">
+      <div class="carousel-caption d-none d-md-block text-right">
       <cite>"husbands, love your wives, even as christ loved the church, and gave himself up for her"</cite>
         <h5 class="mt-4">Paul</h5>
       </div>
     </div>
     <div class="carousel-item third">
-      <div class="carousel-caption d-none d-md-block text-danger text-right">
+      <div class="carousel-caption d-none d-md-block text-right">
       <cite>"In order words, wives be submissive to your husbands"</cite>
         <h5 class="mt-4">Peter</h5>
       </div>
@@ -207,11 +207,11 @@
 <section class="meet-me my-4">
   <div class="container">
      <div class="row mt-2">
-      <div class="col-12 col-lg-6 col-md-6">
+      <div class="col-12 col-lg-6 col-md-12">
         <img src="assets/img/blog_pics/mr_kayode.png" class="profile-pix" alt="marriage counselor">
       </div>
-      <div class="col-12 col-lg-6 col-md-6">
-        <h2 class="display-4 text-danger p-4 text-left">Meet Kayode</h2>
+      <div class="col-12 col-lg-6 col-md-12">
+        <h2 class="display-4 text-danger p-4 text-center">Meet Kayode</h2>
         <div class="profile-text text-center">
           <p>
             Kayode Olatunji is marriage counselor whose passion lies in ensuring God's children have a godly home and marriage.
