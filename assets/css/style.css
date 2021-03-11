@@ -409,12 +409,29 @@ header{
 }
 
 .my-testimony-body{
-    height : 600px;
+    height : 600px;  
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-testimony-title, .my-purpose-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight : 900;
+    text-transform: uppercase;
 }
 
 .my-purpose{
     transform : translateY(-20%);
-    background-color:rgb(253, 253, 253);
+    background-color:rgb(253, 253, 253)
+}
+
+hr{
+    border-color :rgba(220, 53, 57, 1);
+    width : 80px;   
+
+}
+
+.my-purpose-text{
+    font-family: 'Poppins', sans-serif;
 }
 
 .my-purpose-img{
@@ -427,7 +444,7 @@ header{
 
 /* Footer */
 footer{
-    margin-top : 100px;
+    margin-top : 50px;
     height : auto;
     background-image: linear-gradient(to right bottom, #b01212ce, #b01212c5), url(../img/cover_page/pexels-migs-reyes-4205505\ \(1\).jpg);
     background-size: cover;
@@ -495,6 +512,7 @@ footer{
 
     body{
         width: auto;
+        overflow-x: hidden;
     }
 
     header{

@@ -11,6 +11,7 @@
                     <div class="col-12">
                         <div class="my-testimony-title p-2 mt-5">
                             <h1 class="text-danger text-center">My Testimony</h1>
+                            <hr>
                         </div>                       
                     </div>
                 </div>
@@ -43,12 +44,14 @@
     </div>
 </section>
 
-<section class="p-4 mt-4">
-    <div class="container p-4 my-purpose p-4">
+<section class="p-4">
+    <div class="container">
+        <div class="my-purpose p-4">            
             <div class="row mt-3">
                 <div class="col-12 col-lg-6 col-md-6" align="center">
                     <div class="my-purpose-title text-danger p-2">
                         <h2>My Purpose</h2>
+                        <hr>
                     </div>
                     <div class="my-purpose-text p-2">
                         <p>
@@ -65,11 +68,12 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 col-md-6 p-2">
-                    <div class="my-purpose-img">
+                    <div class="my-purpose-img mt-5">
 
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 
 </section>
