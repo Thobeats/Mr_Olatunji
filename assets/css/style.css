@@ -139,6 +139,20 @@ header{
     border-top: 1px solid #B01212;
 }
 
+a{
+    text-decoration: none;
+    color : white;
+}
+
+a:hover{
+    text-decoration: none;
+    color :rgb(255, 255, 255);
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
 .display-4{
     font-family: 'Raleway', sans-serif;
     font-weight : 500;
@@ -381,10 +395,13 @@ header{
     animation: translateFromLeft 1s ease-in;
 }
 
+.profile-title{
+    font-size : 35px;
+    text-transform: uppercase;
+}
 .profile-text{
     text-transform: capitalize;
     font-size : 18px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .btn-meet-me{
@@ -442,6 +459,18 @@ hr{
 }
 /* End About  */
 
+/* Contact */
+.contact-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(../img/cover_page/contact.png);
+    background-position : top;
+    background-size: cover;
+    height : 325px;
+    place-items: center;
+}
+
+
+
+/* End Contact */
 /* Footer */
 footer{
     margin-top : 50px;

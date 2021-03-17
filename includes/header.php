@@ -61,10 +61,10 @@
                                     <a class="nav-link text-danger" href=" about_me.php">About<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href=" pages/blog.php">Gallery <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href=" blog.php"> Blog <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href=" pages/contact_me.php">Contact Us <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href=" contact_me.php">Contact <span class="sr-only">(current)</span></a>
                                 </li>
                             </ul>                            
                         </div>
@@ -85,10 +85,10 @@
                     <a href=" about_me.php" class="navlink">About</a>
                 </li>
                 <li class="nav-item responsive-item">
-                    <a href=" pages/blog.php" class="navlink"> Gallery</a>
+                    <a href=" blog.php" class="navlink"> Blog</a>
                 </li>
                 <li class="nav-item responsive-item">
-                    <a href=" pages/contact_me.php" class="navlink"> Contact us</a>
+                    <a href="contact_me.php" class="navlink"> Contact us</a>
                 </li>
             </ul>
         </div>

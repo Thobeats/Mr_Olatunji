@@ -120,7 +120,7 @@
 
 <!-- Our Services -->
 <section class="our-services">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row p-4">
       <div class="col-lg-12 text-center">
         <h2 class="display-4 text-danger p-4">Our Services</h2>
@@ -205,14 +205,18 @@
 
 <!-- Meet me  -->
 <section class="meet-me my-4">
-  <div class="container">
+  <div class="container-fluid">
      <div class="row mt-2">
       <div class="col-12 col-lg-6 col-md-12">
         <img src="assets/img/blog_pics/mr_kayode.png" class="profile-pix" alt="marriage counselor">
       </div>
-      <div class="col-12 col-lg-6 col-md-12">
-        <h2 class="display-4 text-danger p-4 text-center">Meet Kayode</h2>
-        <div class="profile-text text-center">
+      <div class="col-12 col-lg-6 col-md-12" align="center">
+        <h2 class="text-danger mt-3 poppins profile-title">
+          Meet Kayode
+        </h2>
+        <hr>
+        
+        <div class="profile-text pt-4 poppins text-center">
           <p>
             Kayode Olatunji is marriage counselor whose passion lies in ensuring God's children have a godly home and marriage.
             Kayode has committed himself to equipping God's children with the relevant tools from God's word to have a joyful home
@@ -230,7 +234,7 @@
           
            <div class="row">
               <div class="col">
-                <button class="btn-meet-me">Read More</button>
+                <a role="button" href='about_me.php' class="btn-meet-me">Read More</a>
               </div>                
             </div>
 
