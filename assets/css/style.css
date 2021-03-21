@@ -418,6 +418,9 @@ a:hover{
 /* End Meet me */
 
 /* About */
+.my-testimony {
+   height : auto;
+}
 .my-testimony-img{
    background-image: url(../img/blog_pics/mr_kayode.png);
    background-position : top;
@@ -644,7 +647,7 @@ footer{
     }
 
     .my-testimony-body{
-        height : 820px;
+        height : auto;
     }
 
     .my-purpose{
