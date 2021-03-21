@@ -4,13 +4,17 @@
 ?>
 
 <section id="contact">
-    <div class="container-fluid contact-banner row align-items-center">
-       <div class="text-center border col">
-            <h1 class="contact-title">
-                let's connect
-            </h1>
-       </div> 
-    </div>
+    <div class="container-fluid contact-banner text-center">
+        <h1 class="contact-title text-white">
+            let's Talk
+        </h1>
+    </div>    
+</section>
+
+<section>
+<div class="contact-form-container border">
+    
+</div>
 </section>
 
 <?php include_once("includes/footer.php"); ?>

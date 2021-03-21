@@ -468,7 +468,12 @@ hr{
     place-items: center;
 }
 
-
+.contact-title{
+    font-size : 70px;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    transform: translateY(100%);
+}
 
 /* End Contact */
 /* Footer */
