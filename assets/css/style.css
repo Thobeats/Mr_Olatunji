@@ -478,6 +478,52 @@ hr{
     transform: translateY(100%);
 }
 
+.contact-forms {
+    transform : translateY(-10%);
+    background-color: inherit;
+}
+.contact-list{
+    padding : 5px;
+}
+
+.contact-link {
+    font-size : 17px;
+    font-weight: 400;
+    padding :  5px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-link-active{
+    color : white !important;
+    background-color:rgba(175, 18, 18, 0.8);
+}
+
+.contact-link:hover{
+    color : white !important;
+    background-color:rgba(175, 18, 18, 0.8);
+}
+
+.contact-form-title{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight : 600;
+    font-size : 35px;
+    letter-spacing: .3px;
+}
+
+.contact-form-text{
+    font-family : 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+#Request_form .input{
+    border : none;
+    border-bottom : 1px solid;
+    border-radius : 0px !important;
+    font-family : 'Raleway', sans-serif;
+}
+
+
 /* End Contact */
 /* Footer */
 footer{
