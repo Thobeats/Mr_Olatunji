@@ -26,4 +26,6 @@ $('.datepicker').datepicker({
     clearBtn: true,
     disableTouchKeyboard: true
 });
+
+// END CONTACT SCRIPT
     
