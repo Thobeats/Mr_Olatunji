@@ -1,5 +1,3 @@
-
-
 // CONTACT SCRIPT
 //Select form pills
 

@@ -390,8 +390,14 @@ a:hover{
 
 /* Meet Me */
 .profile-pix{
-    width : 100%;
-    height : 100%;
+    width : 85%;
+    height : 80%;
+    opacity: 0;
+    
+}
+
+.animateProfile-pix{
+    opacity: 1;
     animation: translateFromLeft 1s ease-in;
 }
 

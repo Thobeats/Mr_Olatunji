@@ -49,8 +49,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paroller.js/1.4.7/jquery.paroller.min.js" integrity="sha512-/YNPbFUTvpH1Ecv9UkU6plNvm+MwskxOr6/IR/58Kb0gO0DCN2h7OTNC2GCq6E4RgOYUbZkEPg8tXO5lZ3Kx+A==" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
     <script>
+    //    import simpleParallax from 'simple-parallax-js';
+
         let date = document.querySelector(".date");
 
         date.innerHTML = new Date().getFullYear();
@@ -64,7 +67,33 @@
         });
 
 
-        //
+        //parallax 
+
+        let profilePix = document.querySelector(".profile-pix");
+        let services = document.getElementsByClassName("services-card");
+
+        new simpleParallax(profilePix, {
+            scale : 1.2,
+            orientation : "up left"
+        });
+
+        window.addEventListener("scroll", function(){            
+            if(Math.floor(profilePix.getBoundingClientRect().y) < 600){
+                profilePix.classList.add("animateProfile-pix");
+            }
+        });
+
+        
+
+        // $(profilePix).paroller({
+        //     factor: 0.5, 
+        //     factorXs: 6, 
+        //     type: 'foreground', 
+        //     direction: 'horizontal',
+        //     transition : "transform 1s linear"
+        // });
+
+        
     </script>
 </body>
 </html>

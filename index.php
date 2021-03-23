@@ -207,7 +207,7 @@
 <section class="meet-me my-4">
   <div class="container-fluid">
      <div class="row mt-2">
-      <div class="col-12 col-lg-6 col-md-12">
+      <div class="col-12 col-lg-6 col-md-12 para-img">
         <img src="assets/img/blog_pics/mr_kayode.png" class="profile-pix" alt="marriage counselor">
       </div>
       <div class="col-12 col-lg-6 col-md-12" align="center">
@@ -217,7 +217,7 @@
         <hr>
         
         <div class="profile-text pt-4 poppins text-center">
-          <p>
+          <p> 
             Kayode Olatunji is marriage counselor whose passion lies in ensuring God's children have a godly home and marriage.
             Kayode has committed himself to equipping God's children with the relevant tools from God's word to have a joyful home
             and marriage. 
