@@ -18,7 +18,7 @@ $mail->SMTPDebug = 3;
 $mail->isSMTP();
 
 //Set SMTP host name
-$mail->HOST = "smtp.gmail.com";
+$mail->Host = "smtp.gmail.com";
 
 //SMTP Auth
 $mail->SMTPAuth = true;
@@ -31,10 +31,17 @@ $mail->Password = "T3mil0luw4";
 $mail->SMTPSecure = "tls";
 
 // SMTP port 
-$mail->Port = 587;
+$mail->Port = "587";
+
+// SMTP Username
+$mail->Username = "tobiy23@gmail.com";
+
+// SMTP Password
+$mail->Password = "T3mil0luw4";
+
 
 // From email address and name
-$mail->From = "dayisi@test.com";
+$mail->setFrom("dayisi@test.com");
 $mail->FromName = "Iyanu Dayisi Tobi";
 
 // To address and name
@@ -56,13 +63,13 @@ $mail->AltBody = "Plain text Test";
 
 
 try {
-    $mail->send();
+    $mail->Send();
     echo "Mail sent successfuly";
 }catch(Exception $e) {
     echo "Mail Error: " . $mail->ErrorInfo;
 }
 
-
+$mail->smtpClose();
 
 
 ?>
