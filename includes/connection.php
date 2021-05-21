@@ -36,11 +36,13 @@ $mail->SMTPSecure = "tls";
 // SMTP port 
 $mail->Port = "587";
 
-// SMTP Username
-$mail->Username = "tobiy23@gmail.com";
-
-// SMTP Password
-$mail->Password = "T3mil0luw4";
+$mail->SMTPOptions = array(
+    'ssl' => array(
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true
+    )
+    );
 
 
 // From email address and name
