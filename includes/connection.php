@@ -15,7 +15,7 @@ require_once "../vendor/autoload.php";
 $mail = new PHPMailer(true);
 
 //SMTP debug
-$mail->SMTPDebug = 3;
+// $mail->SMTPDebug = 3;
 
 // set to use SMTP
 $mail->isSMTP();
