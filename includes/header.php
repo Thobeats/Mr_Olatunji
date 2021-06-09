@@ -71,12 +71,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <a class="nav-link text-danger" href=" about_me.php">About<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-danger" href=" blog.php"> Blog <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link text-danger" href="https://blog.realfamilyaffairs.com/"> Blog <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-danger" href=" contact_me.php">Contact <span class="sr-only">(current)</span></a>
                                 </li>
-                            </ul>                            
+                            </ul>                         
                         </div>
                     </nav>
                     <div class="responsive-menu text-right pr-4">
