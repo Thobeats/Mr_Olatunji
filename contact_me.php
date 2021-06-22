@@ -1,9 +1,19 @@
-
-
 <?php 
+include_once "includes/functions.php";
  include_once "includes/header.php";
+// include_once("includes/connection.php");
+
+
+if(isset($_GET['msg'])){
+    $type = $_GET['type'];
+    $msg = $_GET['msg'];
+
+    set_message($type, $msg);
+}
 
 ?>
+
+
 
 <section id="contact">
     <div class="container-fluid contact-banner text-center">
@@ -32,7 +42,7 @@
 
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <form action="" method="POST" id="Request_form">
+            <form action="includes/connection.php" method="POST" id="Request_form">
                     <div class="text-center">
                         <h3 class="contact-form-title">Question / Request</h3>
                         <p class="contact-form-text">Please submit your question or request</p>
@@ -40,19 +50,19 @@
                 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10 border-0 border-bottom">
-                        <input type="text" placeholder="Name" class="form-control input" id="staticEmail">
+                        <input type="text" placeholder="Name" class="form-control input" name="name" id="staticEmail" required>
                         </div>
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10">
-                        <input type="text" placeholder="Email" class="form-control input" id="staticEmail">
+                        <input type="text" placeholder="Email" name="email" class="form-control input" id="staticEmail" required>
                         </div>
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10">
-                        <textarea class="form-control input" placeholder="Your Question or Request" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control input" name="request" placeholder="Your Question or Request" id="exampleFormControlTextarea1" rows="5"></textarea>
                         </div>                        
                     </div>
 
@@ -74,37 +84,37 @@
                 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10 border-0 border-bottom">
-                        <input type="text" placeholder="Name" class="form-control input" id="staticEmail">
+                        <input type="text" name="name" placeholder="Name" class="form-control input" id="staticEmail">
                         </div>
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10 border-0 border-bottom">
-                        <input type="text" placeholder="Phone" class="form-control input" id="staticEmail">
+                        <input type="text" name="phone" placeholder="Phone" class="form-control input" id="staticEmail">
                         </div>
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10 border-0 border-bottom">
-                        <input type="text" placeholder="Name of Venue" class="form-control input" id="staticEmail">
+                        <input type="text" name="venue" placeholder="Name of Venue" class="form-control input" id="staticEmail">
                         </div>
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10">
-                        <input type="text" placeholder="Email" class="form-control input" id="staticEmail">
+                        <input type="text" name="email" placeholder="Email" class="form-control input" id="staticEmail">
                         </div>
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10">
-                            <input placeholder="Choose a date" class="form-control datepicker input">
+                            <input placeholder="Choose a date" class="form-control datepicker input" name="date">
                         </div>                        
                     </div>
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10">
-                        <textarea class="form-control input" placeholder="Describe Engagement" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control input" rows="5" placeholder="Describe Engagement" id="exampleFormControlTextarea1" rows="5" name="engagement"></textarea>
                         </div>                        
                     </div>
 

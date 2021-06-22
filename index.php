@@ -1,4 +1,5 @@
 <?php include "includes/header.php";?>
+<
 
 <div class="row my-2"></div>
 
@@ -207,7 +208,7 @@
 <section class="meet-me my-4">
   <div class="container-fluid">
      <div class="row mt-2">
-      <div class="col-12 col-lg-6 col-md-12 para-img">
+      <div class="col-12 col-lg-6 col-md-12">
         <img src="assets/img/blog_pics/mr_kayode.png" class="profile-pix" alt="marriage counselor">
       </div>
       <div class="col-12 col-lg-6 col-md-12" align="center">
