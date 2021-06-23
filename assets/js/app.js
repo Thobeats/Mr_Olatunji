@@ -1,6 +1,14 @@
 // CONTACT SCRIPT
 //Select form pills
 
+//Load app
+
+// function loadScreen(){
+//     let screenWidth = screen.width;
+
+//     document.animate()
+// }
+
 let contactLinks = document.querySelectorAll(".contact-link");
 
 function clearClass(data, clas){
