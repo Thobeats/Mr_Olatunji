@@ -30,8 +30,8 @@
                 <div class="row copyright bottom-0 positiion-absolute">
                     <div class="col-12 text-center text-light">
                         <p>
-                            copyright(c)  <span class="date"></span> Family Affairs. All rights deserved <br>
-                            FamilyAffairs
+                            copyright(c)  <span class="date"></span> Family Affairs. All rights reserved <br>
+                            Created by DIT 
                         </p>
                         
                     </div>
