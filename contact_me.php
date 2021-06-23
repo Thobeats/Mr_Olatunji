@@ -56,7 +56,7 @@ if(isset($_GET['msg'])){
 
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-10">
-                        <input type="text" placeholder="Email" name="email" class="form-control input" id="staticEmail" required>
+                        <input type="email" placeholder="Email" name="email" class="form-control input" id="staticEmail" required>
                         </div>
                     </div>
 

@@ -60,14 +60,14 @@ if(isset($_POST['submit_request'])){
 
     // To address and name
   //  $mail->addAddress("kayolatunji2@gmail.com");
-  $mail->addAddress("tobiy23@gmail.com");
+  $mail->addAddress("kayodeolatunji@realfamilyaffairs.com");
 
     //Address recipient will reply to
-    $mail->addReplyTo("kayolatunji2@gmail.com", "reply");
+    $mail->addReplyTo("kayodeolatunji@realfamilyaffairs.com", "reply");  
 
     //CC and BCC
-    // $mail->addCC("joedaisey61@gmail.com");
-    // $mail->addBCC("idaysi@outlook.com");
+    $mail->addCC("kayolatunji2@gmail.com");
+    ///$mail->addBCC("idaysi@outlook.com");
 
     //Send HTML or plain text email
     $mail->isHTML(true);
