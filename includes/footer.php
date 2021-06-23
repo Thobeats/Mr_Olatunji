@@ -31,7 +31,7 @@
                     <div class="col-12 text-center text-light">
                         <p>
                             copyright(c)  <span class="date"></span> Family Affairs. All rights deserved <br>
-                            Designed By Dev Tobi
+                            FamilyAffairs
                         </p>
                         
                     </div>

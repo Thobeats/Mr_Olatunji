@@ -63,7 +63,7 @@
                  
                 <div class="row align-items-end mb-1">
                   <div class="col">
-                    <button class="btn-family-affair">Learn More</button>
+                    <a class="btn-family-affair" target="_blank" href="https://blog.realfamilyaffairs.com/">Learn More</a>
                   </div>                
                 </div>
               </div>
@@ -88,7 +88,7 @@
                 
               <div class="row align-items-end mt-4">
                 <div class="col">
-                 <button class="btn-family-affair">Learn More</button>
+                 <a class="btn-family-affair" href="contact_me.php#pills-contact">Book Now</a>
                 </div>                
               </div>
                                
@@ -192,7 +192,7 @@
     </div>
     <div class="row p-4 justify-content-center">
       <div class="col-lg-4 col-md-6 col-12 text-center">
-        <a href="" class="contact-link">
+        <a href="contact_me.php" class="contact-link">
           <div class="contact-me-button p-3 bg-danger">
               <h3>contact</h3>
           </div>

@@ -501,12 +501,12 @@ hr{
 
 .contact-link-active{
     color : white !important;
-    background-color:rgba(175, 18, 18, 0.8);
+    /**background-color:rgba(175, 18, 18, 0.8);**/
 }
 
 .contact-link:hover{
     color : white !important;
-    background-color:rgba(175, 18, 18, 0.8);
+  /**  background-color:rgba(175, 18, 18, 0.8);**/
 }
 
 .contact-form-title{
