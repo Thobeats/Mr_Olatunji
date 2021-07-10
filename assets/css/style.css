@@ -1,68 +1,14 @@
-/* Animation */
-@keyframes animateQuotesLarge {
-    0% {
-        transform: translate(0rem, -10rem);
-        opacity: 0;
-    }
-
-    50%{
-        transform: translate(30rem, -10rem);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translate(47rem, -10rem);
-        opacity: 1;
-    }
-}
-
 @keyframes animateQuotes {
     0% {
-        transform: translate(0rem, -15rem);
         opacity: 0;
     }
 
     50%{
-        transform: translate(30rem, -15rem);
-        opacity: 0;
+     
+        opacity: 0.5;
     }
 
     100%{
-        transform: translate(45rem, -15rem);
-        opacity: 1;
-    }
-}
-
-@keyframes animateQuotesResponsive {
-    0% {
-        transform: translate(0rem, -10rem);
-        opacity: 0;
-    }
-
-    50%{
-        transform: translate(15rem, -10rem);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translate(25rem, -10rem);
-        opacity: 1;
-    }
-}
-
-@keyframes animateResponsive {
-    0% {
-        transform: translate(0rem, -3rem);
-        opacity: 0;
-    }
-
-    50%{
-        transform: translate(15rem, -3rem);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translate(25rem, -3rem);
         opacity: 1;
     }
 }
@@ -250,11 +196,13 @@ a:hover{
 
 .carousel-caption{
     text-transform: capitalize;
-    width : 30%;
+    width : 300px;
     font-family: 'Raleway', sans-serif;
-    animation: animateQuotes 1.5s ease-out;
+     animation: animateQuotes 1.5s ease-out;
     color :rgba(175, 18, 18);
-    transform: translate(45rem, -15rem) !important;
+    position : relative;
+    top : 30%;
+    left : 70%;
 }
 
 .carousel-caption cite{
@@ -572,7 +520,7 @@ footer{
 
 /* End Footer */
 
-@media screen and (min-width : 1340px){
+/* @media screen and (max-width: 1287px){
     .nav-link {
         letter-spacing: 3px;
      }
@@ -584,11 +532,8 @@ footer{
  
      .carousel-caption{
          text-transform: capitalize;
-         width : 30%;
-         transform: translate(47rem, -10rem) !important;
-         /* background-image: linear-gradient(90deg, rgb(253, 253, 253), rgb(250, 4, 4));
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent; */
+         width : 350px;
+         transform: translate(45rem, -10rem) !important;
          font-family: 'Raleway', sans-serif;
          font-weight : 700;
          font-size : larger;
@@ -596,7 +541,7 @@ footer{
      }
  
      .carousel-caption cite{
-         font-weight : 700;
+         font-weight : 500;
          font-size : 15px;
          letter-spacing: 2px;
      }
@@ -608,7 +553,7 @@ footer{
      footer{
          height: auto;
      }
-}
+} */
 
 @media only screen and (max-width : 1139px){
     .nav-link {
@@ -622,20 +567,23 @@ footer{
 
     .carousel-caption{
         text-transform: capitalize;
+        padding : 5px;
         width : 30%;
-        color : whitesmoke;
-        transform: translate(23rem, -10rem) !important;
-        /* background-image: linear-gradient(90deg, rgb(253, 253, 253), rgb(250, 4, 4));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; */
+        color :rgb(255, 255, 255);
+        position: relative;
+        top : 60%;
+        left : 50%;
         font-family: 'Raleway', sans-serif;
-        font-weight : 700;
+        font-weight : 300;
         font-size : larger;
-        animation : animateQuotesResponsive 1.5s ease-in;
+         animation : animateQuotes 1.5s ease-in; 
+
+
+
+        
     }
 
     .carousel-caption cite{
-        font-weight : 700;
         font-size : 15px;
         letter-spacing: 2px;
     }
@@ -709,13 +657,19 @@ footer{
     .carousel-caption{
         text-transform: capitalize;
         width : 30%;
-        transform: translate(25rem, -3rem) !important;
         background-image: linear-gradient(90deg, #b01212ce, #b01212ce);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation : animateResponsive 1.5s ease-in;
+        animation : animateQuotes 1.5s ease-in;
         font-family: 'Raleway', sans-serif;
+        position: relative;
+        top : 20%;
+        left : 68%;
     }
+
+    .carousel-caption cite{
+        font-size : 10px;
+    }   
 
     footer{
         height: auto;
@@ -754,6 +708,26 @@ footer{
 
     .my-testimony-body{
         height : auto;
+    }
+
+    .carousel-caption{
+        text-transform: capitalize;
+        width : 100%;
+        animation : animateQuotes 1.5s ease-in;
+        background-image: linear-gradient(90deg, #fff, #ffff);
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        top : 40%;
+        left : 0px;
+        right : 5px;
+        color : #fff;
+      
+    }
+
+    .carousel-caption cite{
+        font-size : 12px;
+        font-weight: 700;
+        letter-spacing: 0;
     }
 
     .my-purpose{

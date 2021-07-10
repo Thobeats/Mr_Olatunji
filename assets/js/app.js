@@ -1,13 +1,25 @@
+//alert(screen.width);
+
 // CONTACT SCRIPT
 //Select form pills
 
 //Load app
 
+
 // function loadScreen(){
 //     let screenWidth = screen.width;
 
-//     document.animate()
+//     let carouselCaption = document.querySelector('.carousel-caption');
+
+//     let offset = (screenWidth - 15);
+//     offset += "px";
+    
+//     carouselCaption.animate({
+//         transform: ['translateY('+ offset +')', 'translateY(-10rem)']
+//       }, 1000);
 // }
+
+// document.onload = loadScreen();
 
 let contactLinks = document.querySelectorAll(".contact-link");
 
