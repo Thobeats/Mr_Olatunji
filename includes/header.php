@@ -98,7 +98,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a href=" about_me.php" class="navlink">About</a>
                 </li>
                 <li class="nav-item responsive-item">
-                 <a class="nav-link text-danger" href="https://blog.realfamilyaffairs.com/"> Blog <span class="sr-only">(current)</span></a>
+                 <a href="https://blog.realfamilyaffairs.com/"> Blog </a>
                 </li>
                 <li class="nav-item responsive-item">
                     <a href="contact_me.php" class="navlink"> Contact us</a>
