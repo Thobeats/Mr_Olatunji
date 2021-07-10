@@ -26,13 +26,11 @@ if(isset($_GET['msg'])){
 <section>
     <div class="container contact-forms bg-white p-3">
         <div class="mb-3">
-            <ul class="nav nav-pills p-2" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
                 <li class="nav-item contact-list" role="presentation">
                     <a class="contact-link contact-link-active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">General Request</a>
                 </li>
-                <!-- <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Request to Speak</a>
-                </li> -->
+             
                 <li class="nav-item contact-list" role="presentation">
                     <a class="contact-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Request to speak</a>
                 </li>

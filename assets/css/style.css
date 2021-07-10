@@ -344,10 +344,16 @@ a:hover{
     color: rgba(255, 255, 255, 0.7);
 }
 
-.contact-link, .contact-link:hover{
+.contact-link{
     text-decoration: none;
     text-transform: uppercase;
     color :rgb(253, 253, 253);
+
+}
+
+.contact-link:hover, .contact-link-active{
+    background-color: rgba(175, 18, 18, 0.8);
+    color: rgb(255, 255, 255) !important;
 }
 
 /* End Services */
@@ -463,15 +469,6 @@ hr{
     font-family: 'Poppins', sans-serif;
 }
 
-.contact-link-active{
-    color : white !important;
-    /**background-color:rgba(175, 18, 18, 0.8);**/
-}
-
-.contact-link:hover{
-    color : white !important;
-  /**  background-color:rgba(175, 18, 18, 0.8);**/
-}
 
 .contact-form-title{
     font-family: 'Poppins', sans-serif;
@@ -732,6 +729,29 @@ footer{
 
     .my-purpose{
         transform : translateY(0%);
+    }
+
+    .contact-banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(../img/cover_page/contact.png);
+        background-position : top;
+        background-size: cover;
+        place-items: center;
+    }
+
+    .contact-title{
+        font-size: 55px;
+    }
+
+    .contact-list{
+        padding : 0px;
+    }
+
+    
+    .contact-link {
+        font-size : 15px;
+        font-weight: 400;
+        padding :  5px;
+        font-family: 'Poppins', sans-serif;
     }
 
     .footer-social i {
