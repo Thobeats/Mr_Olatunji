@@ -741,7 +741,18 @@ footer{
     .contact-title{
         font-size: 55px;
     }
+    
+    .contact-form-title{
+        font-size: 25px;
+    }
 
+    .contact-nav{
+        justify-content : center;
+    }
+
+    .contact-tab{
+        margin-top: 50px;
+    }
     .contact-list{
         padding : 0px;
     }

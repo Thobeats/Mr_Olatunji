@@ -26,7 +26,7 @@ if(isset($_GET['msg'])){
 <section>
     <div class="container contact-forms bg-white p-3">
         <div class="mb-3">
-            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills contact-nav" id="pills-tab" role="tablist">
                 <li class="nav-item contact-list" role="presentation">
                     <a class="contact-link contact-link-active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">General Request</a>
                 </li>
@@ -38,7 +38,7 @@ if(isset($_GET['msg'])){
         </div>
     
 
-        <div class="tab-content" id="pills-tabContent">
+        <div class="tab-content contact-tab" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <form action="includes/connection.php" method="POST" id="Request_form">
                     <div class="text-center">
