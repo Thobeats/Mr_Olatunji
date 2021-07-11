@@ -106,7 +106,7 @@
  <div class="row justify-content-center">
    <div class="col-12 col-lg-10 col-md-10">
       <p class="call-us text-center pt-2">
-        <!--<span class="call-us-intro">need to talk to someone?</span>--> call now: <span class="material-icons md-48">call</span> +1-862-888-0136 
+        call now: <span class="material-icons md-48">call</span> +1-862-888-0136 
       </p>
    </div>
    <!-- <div class="col-12 col-lg-6 col-md-6 border">
@@ -192,7 +192,7 @@
     </div>
     <div class="row p-4 justify-content-center">
       <div class="col-lg-4 col-md-6 col-12 text-center">
-        <a href="contact_me.php" class="contact-link">
+        <a href="contact_me.php" style="text-transform: uppercase;">
           <div class="contact-me-button p-3 bg-danger">
               <h3>contact</h3>
           </div>
